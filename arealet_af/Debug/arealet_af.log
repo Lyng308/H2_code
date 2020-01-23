@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (arealet_af.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Main.c
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\arealet_af\main.c(19): warning C4013: 'getch' undefined; assuming extern returning int
+  arealet_af.vcxproj -> C:\Users\73903\OneDrive - Grundfos\skole\H2\Visual studio\H2_2020\Debug\arealet_af_5X7_rektangel.exe
