@@ -1,18 +1,69 @@
-/*********************************************************
-     
-	 Program:			StandardC
-	 Date Created:		20170802
-	 Date Last Edit:	20170802
-	 Author:			/PEFA
-	 Purpose:			Template for standard C
-	 
-	 The main source for Your program. 
-	 2017 August /PEFA
-**********************************************************/
 #include "Main.h"
 int main() {
-	return 0; /* Normal excution:		return 0
-				 Abnormal execution:	return -something
-				 /PEFA */
-
+	setlocale(LC_ALL, "da-DK");
+	//declare our "library"
+	struct Books library[MAXBOOKS];
+	char menuChoice;
+	/* book 1 specification */
+	/* Make a function to add these data*/
+	strcpy(library[0].title, "C Programming");
+	strcpy(library[0].author, "Nuha Ali");
+	strcpy(library[0].subject, "C Programming Tutorial");
+	library[0].book_price = 199.75;
+	library[0].id = 0;
+	do
+	{
+		menu();
+		menuChoice = getch();
+		switch (menuChoice)
+		{
+		case 'T': /*AddBook()*/; break;
+		case 'S': /*DeleteBook()*/; break;
+		case 'A': /*printAllBooks()*/; break;
+		case 'P': printBook(&library[0]);
+		}
+	} while (menuChoice != 'E');
+	return 0;
 }
+/*********************************************************
+Function: printBook
+Date Created: 20171219
+Date Last Edit: 20171219
+Author: /PEFA
+Purpose: Print data from a book struct to screen
+Arguments: Pointer to struct in library
+Returns: void
+**********************************************************/
+void printBook(struct Books *book) {
+	system("CLS");
+	//The -> is used when it's a pointer to a struct thats used
+	printf("Book title : %s\n", book->title);
+	printf("Book author : %s\n", book->author);
+	printf("Book subject : %s\n", book->subject);
+	printf("Book book_price : %f\n", book->book_price);
+	getch();
+}
+/*********************************************************
+Function: menu
+Date Created: 20171219
+Date Last Edit: 20171219
+Author: /PEFA
+Purpose: Write a menu to screen
+Arguments: void
+Returns: void
+**********************************************************/
+void menu(void)
+{
+	system("CLS");
+	// 1 2 3 4 5 6 7 8
+	// 012345678901234567890123456789012345678901234567890123456789012345678901234567890
+	printf("\n Et demo program");
+	printf("\n ");
+	printf("\n Tilfoej bog tast T ");
+	printf("\n Print bog tast P ");
+	printf("\n Slet bog tast S ");
+	printf("\n Udskrive Alle tast A ");
+	printf("\n ");
+	printf("\n Stoppe programmet tast E ");
+}
+
