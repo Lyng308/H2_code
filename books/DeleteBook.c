@@ -8,6 +8,8 @@ Arguments:			Void
 Returns:			Void
 **********************************************************/
 #include "Main.h"
+extern NumberOfBooks;
+
 void DeleteBookmenu(struct Books *book) {
 	system("cls");
 	printf("ID\t\t\t Book title\n");

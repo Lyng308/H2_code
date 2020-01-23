@@ -18,7 +18,7 @@ struct Books {
 	float book_price;
 	int id;
 };
-int NumberOfBooks = 1;
+
 void printBook(struct Books *book);
 void menu(void);
 

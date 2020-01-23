@@ -8,6 +8,8 @@ Arguments: Pointer to struct in library
 Returns: void
 **********************************************************/
 #include "Main.h"
+extern NumberOfBooks;
+
 void printBook(struct Books *book) {
 	system("CLS");
 	//The -> is used when it's a pointer to a struct thats used

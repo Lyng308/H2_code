@@ -8,6 +8,7 @@ Arguments:			Void
 Returns:			Void
 **********************************************************/
 #include "Main.h"
+extern NumberOfBooks;
 void AddBook(struct Books *book) {
 	system("cls||clear");
 	printf("Indtast Bogtitle: ");
@@ -28,11 +29,11 @@ void AddBook(struct Books *book) {
 
 	printf("\nfærdig med at tilføje bogen\nsådan ser det ud :) ");
 	printBook(&book[NumberOfBooks]);
-	while (getchar() != '\n'); // ryder op efter scanf for eller lægger der en enter klar til næste gang man skal skrive nået
+	while (getchar() != '\n'); // rydder op efter scanf for eller lægger der en enter klar til næste gang man skal skrive nået
 	{
 
 	}
 	NumberOfBooks++;
-	printf("\nTyrk en taste");
+	printf("\nTryk en taste");
 	getch();
 }

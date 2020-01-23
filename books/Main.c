@@ -1,4 +1,5 @@
 #include "Main.h"
+int NumberOfBooks = 1;
 int main() {
 	setlocale(LC_ALL, "da-DK");
 	//declare our "library"
