@@ -1,0 +1,3 @@
+﻿  Main.c
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\fakultet tal\main.c(30): warning C4013: 'getch' undefined; assuming extern returning int
+  fakultet tal.vcxproj -> C:\Users\73903\OneDrive - Grundfos\skole\H2\Visual studio\H2_2020\Debug\fakultet tal.exe
