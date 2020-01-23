@@ -24,6 +24,7 @@ void menu(void);
 
 void AddBook(struct Books *book);
 
-void printAllBooks(struct Books *library);
+void printAllBooks(struct Books *book);
 
+void DeleteBookmenu(struct Books *book);
 void DeleteBook(struct Books *book);

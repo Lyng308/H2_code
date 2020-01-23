@@ -142,7 +142,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AddBooks.c" />
+    <ClCompile Include="DeleteBook.c" />
     <ClCompile Include="Main.c" />
+    <ClCompile Include="printBook.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Main.h" />
