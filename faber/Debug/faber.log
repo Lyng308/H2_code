@@ -1,0 +1,75 @@
+﻿  Main.c
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(20): warning C4476: 'printf' : unknown type field character ',' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(21): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(22): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(22): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(22): warning C4778: 'printf' : unterminated format string '%\n'
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(23): warning C4778: 'printf' : unterminated format string '%\n'
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(24): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(24): warning C4476: 'printf' : unknown type field character '@' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(24): warning C4778: 'printf' : unterminated format string '%\n'
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(25): warning C4476: 'printf' : unknown type field character '@' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(26): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(27): warning C4778: 'printf' : unterminated format string '%\n'
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(30): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(32): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(33): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(33): warning C4476: 'printf' : unknown type field character '/' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(33): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(34): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(34): warning C4476: 'printf' : unknown type field character '%' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(34): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(34): warning C4476: 'printf' : unknown type field character '@' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(35): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(35): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(35): warning C4476: 'printf' : unknown type field character '*' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(37): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(38): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(39): warning C4476: 'printf' : unknown type field character '*' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(41): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(42): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(42): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(43): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(43): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(43): warning C4476: 'printf' : unknown type field character '/' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(43): warning C4778: 'printf' : unterminated format string '%#\n'
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(44): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(44): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(44): warning C4476: 'printf' : unknown type field character '/' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(45): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(45): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(45): warning C4476: 'printf' : unknown type field character '/' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(46): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(46): warning C4476: 'printf' : unknown type field character '/' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(46): warning C4476: 'printf' : unknown type field character ',' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(47): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(47): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(48): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(48): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(48): warning C4778: 'printf' : unterminated format string '%\n'
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(49): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(49): warning C4476: 'printf' : unknown type field character '%' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(49): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(50): warning C4476: 'printf' : unknown type field character '@' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(50): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(50): warning C4476: 'printf' : unknown type field character '%' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(50): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(51): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(52): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(52): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(53): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(54): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(55): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(55): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(55): warning C4476: 'printf' : unknown type field character '@' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(56): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(56): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(57): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(58): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(59): warning C4476: 'printf' : unknown type field character '%' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(59): warning C4476: 'printf' : unknown type field character '(' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(59): warning C4476: 'printf' : unknown type field character '@' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(60): warning C4476: 'printf' : unknown type field character '&' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(60): warning C4476: 'printf' : unknown type field character '%' in format specifier
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\faber\main.c(66): warning C4013: 'getch' undefined; assuming extern returning int
+  faber.vcxproj -> C:\Users\73903\OneDrive - Grundfos\skole\H2\Visual studio\H2_2020\Debug\faber.exe

@@ -1,0 +1,7 @@
+﻿  Main.c
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\byt værdi\main.c(20): warning C4013: 'getch' undefined; assuming extern returning int
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\byt værdi\main.c(16): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: see declaration of 'scanf'
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020\byt værdi\main.c(18): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: see declaration of 'scanf'
+  byt værdi.vcxproj -> C:\Users\73903\OneDrive - Grundfos\skole\H2\Visual studio\H2_2020\Debug\byt værdi.exe
