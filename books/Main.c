@@ -18,7 +18,7 @@ int main() {
 		menuChoice = toupper(getch());
 		switch (menuChoice)
 		{
-		case 'T': AddBook(&library[NumberOfBooks]); break;
+		case 'T': AddBook(&library); break;
 		case 'S': DeleteBookmenu(&library); break;
 		case 'A': printAllBooks(&library); break;
 		case 'P': printBook(&library[0]);

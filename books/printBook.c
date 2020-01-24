@@ -36,7 +36,7 @@ void printAllBooks(struct Books *book) {
 	printf("ID\t\t\t Book title\n");
 	for (int i = 0; i < NumberOfBooks; i++)
 	{
-		printf("%d\t\t\t %s", &book[i].id, &book[i].title);
+		printf("%d\t\t\t %s\n", book[i].id, book[i].title);
 	}
 	getch();
 }
