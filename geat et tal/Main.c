@@ -11,7 +11,7 @@
 int main() {
 
 	char igen;
-	int  minTal, maxTal, maxGeat, comtal;
+	int  minTal, maxTal, antalGaet, maxGeat, comtal;
 
 	do
 	{
@@ -20,12 +20,25 @@ int main() {
 
 		//Input the numbers
 		input(&minTal, &maxTal, &maxGeat);
+		while (antalGaet = maxGeat)
+		{
+		}
 		printf("\n\nhvad for et tal gætter du på?: ");
 		comtal = findtal(minTal, maxTal);
-		if (tester(&comtal) == 1)
-			outgaet(false, &maxGeat);
-		if (tester(comtal) == 0)
-			outgaet(true, &maxGeat);
+
+		if (tester(comtal) == 1) {
+			antalGaet++;
+			outgaet(true, &antalGaet);
+		}
+		if (tester(comtal) == 0) {
+			antalGaet++;
+			outhurra(true, naxGeat, antalGaet, comtal);
+		}
+		if (tester(comtal) == -1) {
+			antalGaet++;
+			outgaet(false, &antalGaet);
+		}
+	}
 		//if (tester(comtal) == -1)
 		//outhurra(true, &maxGeat, comtal);
 
