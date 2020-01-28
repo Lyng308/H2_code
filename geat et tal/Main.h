@@ -23,3 +23,5 @@ void outgaet(bool lavtHojt, int antalGaet);
 //Function You MUST create
 //
 void outhurra(bool rigtig, int maxGaet, int antalGaet, int compuTal);
+
+

@@ -8,11 +8,6 @@
 
 **********************************************************/
 #include "Main.h"
-//Prototypes for the functions the project MUST contain
-
-
-
-
 int main() {
 
 	char igen;
@@ -21,22 +16,21 @@ int main() {
 	do
 	{
 		//Tell the user what to do
-		
+
 
 		//Input the numbers
 		input(&minTal, &maxTal, &maxGeat);
 		printf("\n\nhvad for et tal gætter du på?: ");
-		comtal = findtal(&minTal, &maxTal);
-		tester(comtal);
-		if (tester(comtal) == 1)
+		comtal = findtal(minTal, maxTal);
+		if (tester(&comtal) == 1)
 			outgaet(false, &maxGeat);
 		if (tester(comtal) == 0)
 			outgaet(true, &maxGeat);
-		if (tester(comtal) == -1)
-			outhurra(true, &maxGeat, comtal);
+		//if (tester(comtal) == -1)
+		//outhurra(true, &maxGeat, comtal);
 
 		//Tell the user which numbers have been input
-		
+
 		printf("\n %d = findtal(%3d, %3d) ", findtal(minTal, maxTal), minTal, maxTal);
 
 		//Request user to stop or retry
@@ -44,7 +38,11 @@ int main() {
 	} while (toupper(getch()) != 'S');
 
 	return 0; /* Normal excution:		return 0
-				 Abnormal execution:	return -something
-				 /PEFA */
+			  Abnormal execution:	return -something
+			  /PEFA */
 
 }
+
+
+
+
