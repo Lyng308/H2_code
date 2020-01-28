@@ -39,15 +39,17 @@ Returns: void
 void menu(void)
 {
 	system("CLS");
-	// 1 2 3 4 5 6 7 8
+	//			 1		   2		 3		   4		 5		   6		 7		   8
 	// 012345678901234567890123456789012345678901234567890123456789012345678901234567890
-	printf("\n Et demo program");
-	printf("\n ");
-	printf("\n Tilfoej bog tast T ");
-	printf("\n Print bog tast P ");
-	printf("\n Slet bog tast S ");
-	printf("\n Udskrive Alle tast A ");
-	printf("\n ");
-	printf("\n Stoppe programmet tast E ");
+	printf("\n|=============================================================================|");
+	printf("\n| This program is a digital library where you can use the following features. |");
+	printf("\n| Please press the key to the function you wish to execute\t\t      |");
+	printf("\n|=============================================================================|");
+	printf("\n| \tAdd a book to the archive \t\t\tPress T \t      |");
+	printf("\n| \tDelete a book from the archive \t\t\tPress S \t      |");
+	printf("\n| \tPrint the details of selected book \t\tPress P \t      |");
+	printf("\n| \tPrint all books id and titles in the archive \tPress A \t      |");
+	printf("\n| \t\t\t\t\t\t\t\t\t      |");
+	printf("\n| \tPress E to exit the program \t\t\t\t\t      |");
+	printf("\n|=============================================================================|");
 }
-

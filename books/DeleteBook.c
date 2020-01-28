@@ -18,7 +18,7 @@ void DeleteBookmenu(struct Books *book) {
 		printf("%d\t\t\t %s", book[i].id, book[i].title);
 	}
 	char deletemenuChoice;
-	printf("ÿsnker du at slette en bog Tryk S\n\n");
+	printf("\n\nÿsnker du at slette en bog Tryk S\n\n");
 	printf("Home Tryk H");
 	deletemenuChoice = toupper(getch());
 	switch (deletemenuChoice)
@@ -42,9 +42,9 @@ void DeleteBook(struct Books *book) {
 	int delbook;
 	scanf("%d", &delbook);
 	getch();
-	for (delbook < NumberOfBooks - 1; delbook++;)
+	for (delbook < NumberOfBooks; delbook++;)
 	{
-		book[delbook + 1] = book[delbook];
+		book[delbook] = book[delbook + 1];
 	}
 	NumberOfBooks -= 1;
 	getch();

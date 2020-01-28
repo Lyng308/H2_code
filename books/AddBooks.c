@@ -11,25 +11,22 @@ Returns:			Void
 extern NumberOfBooks;
 void AddBook(struct Books *book) {
 	system("cls||clear");
-	printf("Indtast Bogtitle: ");
+	printf("================== Menu: addbook ==================\n");
+	printf("\tInput the title of the book: ");
 	fgets(book[NumberOfBooks].title, MAXTITLE, stdin);
-
-	printf("\nIndtast forfatter: ");
+	printf("\tInput the name of the author: ");
 	fgets(book[NumberOfBooks].author, MAXAUTHOR, stdin);
-
-	printf("\nIndtast Emne: ");
+	printf("\tInput the subject: ");
 	fgets(book[NumberOfBooks].subject, MAXSUBJECT, stdin);
-
-	printf("\nIndtast bogens pris i Dkk:");
+	printf("\tInput the price of the book: ");
 	scanf("%f", &book[NumberOfBooks].book_price);
 
 	book[NumberOfBooks].id = NumberOfBooks;
 
-	system("cls||clear");
+	printf("\n\tYou have input the following details: \n");
 
-	printf("\nfærdig med at tilføje bogen\nsådan ser det ud :) ");
 	printBook(&book[NumberOfBooks]);
-	while (getchar() != '\n'); // rydder op efter scanf for eller lægger der en enter klar til næste gang man skal skrive nået
+	//while (getchar() != '\n'); // rydder op efter scanf for eller lægger der en enter klar til næste gang man skal skrive nået
 
 	NumberOfBooks++;
 	printf("\nTryk en taste");
