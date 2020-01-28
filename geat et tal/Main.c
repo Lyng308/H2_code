@@ -16,7 +16,7 @@
 int main() {
 
 	char igen;
-	int  minTal, maxTal, maxGeat;
+	int  minTal, maxTal, maxGeat, comtal;
 
 	do
 	{
@@ -26,7 +26,15 @@ int main() {
 		//Input the numbers
 		input(&minTal, &maxTal, &maxGeat);
 		printf("\n\nhvad for et tal gætter du på?: ");
-		tester(findtal(&minTal, &maxTal));
+		comtal = findtal(&minTal, &maxTal);
+		tester(comtal);
+		if (tester(comtal) == 1)
+			outgaet(false, &maxGeat);
+		if (tester(comtal) == 0)
+			outgaet(true, &maxGeat);
+		if (tester(comtal) == -1)
+			outhurra(true, &maxGeat, comtal);
+
 		//Tell the user which numbers have been input
 		
 		printf("\n %d = findtal(%3d, %3d) ", findtal(minTal, maxTal), minTal, maxTal);

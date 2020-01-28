@@ -1,6 +1,6 @@
 #include "Main.h"
 int tester(compuTal) {	
-	int geat;
+	int geat = 0;
 		scanf("%d", geat);
 	if (compuTal == geat); //hvis geat er lige med computal = return -1
 		return(-1);

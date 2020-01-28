@@ -146,6 +146,7 @@
     <ClCompile Include="Input.c" />
     <ClCompile Include="Main.c" />
     <ClCompile Include="outgaet.c" />
+    <ClCompile Include="outhurra.c" />
     <ClCompile Include="Tester.c" />
   </ItemGroup>
   <ItemGroup>
