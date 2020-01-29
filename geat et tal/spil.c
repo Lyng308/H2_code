@@ -1,5 +1,5 @@
 #include "Main.h"
-void runner(void) {
+void spil(void) {
 	int  minTal, maxTal, antalGeat = 0, maxGeat, comtal, scorenr = 0;
 
 	input(&minTal, &maxTal, &maxGeat);

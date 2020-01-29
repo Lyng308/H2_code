@@ -37,7 +37,13 @@
     <ClCompile Include="score.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="runner.c">
+    <ClCompile Include="spil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="highscore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="regler.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

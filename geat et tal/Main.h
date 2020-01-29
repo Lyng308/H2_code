@@ -6,7 +6,10 @@
 #include <stdbool.h>	//Boolean definitions
 					  //see findtal.c
 
-void runner(void);
+void menu(void);
+void spil(void);
+void regler(void);
+void highscore(void);
 
 int findtal(int minTal, int maxTal);
 
