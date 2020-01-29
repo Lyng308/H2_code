@@ -147,6 +147,8 @@
     <ClCompile Include="Main.c" />
     <ClCompile Include="outgaet.c" />
     <ClCompile Include="outhurra.c" />
+    <ClCompile Include="runner.c" />
+    <ClCompile Include="score.c" />
     <ClCompile Include="Tester.c" />
   </ItemGroup>
   <ItemGroup>

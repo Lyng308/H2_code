@@ -34,5 +34,11 @@
     <ClCompile Include="outhurra.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="score.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="runner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

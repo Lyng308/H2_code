@@ -1,11 +1,13 @@
 #pragma once
-#include <stdio.h> /* This is the include file for handling
-					  standard input & output
-					  2017 August PEFA                      */
+#include <stdio.h>
+#include <locale.h>
 #include <conio.h>		//getch()
 #include <time.h>		//Time function for random
 #include <stdbool.h>	//Boolean definitions
 					  //see findtal.c
+
+void runner(void);
+
 int findtal(int minTal, int maxTal);
 
 //Function You MUST create
@@ -24,4 +26,4 @@ void outgaet(bool lavtHojt, int antalGaet);
 //
 void outhurra(bool rigtig, int maxGaet, int antalGaet, int compuTal);
 
-
+void score(int antalGeat, int maxGeat);
