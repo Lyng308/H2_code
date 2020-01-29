@@ -15,7 +15,7 @@ void about(void) {
 		printf("|  _  | '_ \\ / _ \\| | | | __|\n");
 		printf("| | | | |_) | (_) | |_| | |_ \n");
 		printf("\\_| |_/_.__/ \\___/ \\__,_|\\__|\n");
-		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), random(0, 256));
+		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), random(0, 15));
 		faber();
 	
 
