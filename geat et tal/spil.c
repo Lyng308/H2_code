@@ -1,3 +1,7 @@
+/*********************************************************
+Function:		spil
+Purpose:		Her får vi inputs fra andre funktioner og sender det vidre til de funktioner der skal bruge det.
+**********************************************************/
 #include "Main.h"
 void spil(void) {
 	int  minTal, maxTal, antalGeat = 0, maxGeat, comtal, scorenr = 0;
@@ -8,15 +12,15 @@ void spil(void) {
 	while (antalGeat < maxGeat) {
 		int trueFalse = tester(comtal);
 
-		if (trueFalse == 1) {
+		if (trueFalse == 1) {					//her sender vi inputs til funktionen outGaet
 			antalGeat++;
 			outgaet(true, &antalGeat);
 		}
-		if (trueFalse == 0) {
+		if (trueFalse == 0) {					//her sender vi inputs til funktionen outhurra
 			antalGeat++;
 			outhurra(true, maxGeat, antalGeat, comtal);
 		}
-		if (trueFalse == -1) {
+		if (trueFalse == -1) {					//her sender vi inputs til funktionen outgaet
 			antalGeat++;
 			outgaet(false, &antalGeat);
 		}
