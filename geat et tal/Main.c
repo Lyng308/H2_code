@@ -20,16 +20,28 @@ int main() {
 		switch (menuChoice)
 		{
 		case 'S': spil(); break;
-		case 'R': Regler() ; break;
+		case 'R': regler() ; break;
 		case 'H': highscore() ; break;
-		
 		}
-		printf("\n\nVil du pr\233ve igen? Hvis nej tast L");
 	} while (toupper(getch()) != 'L');
 	
 	return 0; 
 }
 
-void menu(void){}
-
-
+void menu(void){
+	system("cls");
+	printf("                    ___  ___                 \n");
+	printf("                    |  \\/  |                \n");
+	printf("                    | .  . | ___ _ __  _   _ \n");
+	printf("                    | |\\/| |/ _ \\ '_ \\| | | |\n");
+	printf("                    | |  | |  __/ | | | |_| |\n");
+	printf("                    \\_|  |_/\\___|_| |_|\\__,_|\n");
+	printf("\n              =====================================");
+	printf("\n              |                                   |");
+	printf("\n              |  Tryk på S for at starte spillet  |");
+	printf("\n              |  Tryk på R for at se regler       |");
+	printf("\n              |  Tryk på H for at se Highscore    |");
+	printf("\n              |  Tryk på L for at Luk programmet  |");
+	printf("\n              |                                   |");
+	printf("\n              =====================================");
+}
