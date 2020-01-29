@@ -1,6 +1,7 @@
-﻿  Main.c
-c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020_github\h2_code\geat et tal\main.c(20): warning C4013: 'toupper' undefined; assuming extern returning int
-c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020_github\h2_code\geat et tal\main.c(20): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+﻿  About.c
+c:\users\mathi\source\repos\h2_code\geat et tal\about.c(23): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\conio.h(453): note: see declaration of 'getch'
-c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020_github\h2_code\geat et tal\main.c(13): warning C4101: 'igen': unreferenced local variable
-  geat et tal.vcxproj -> C:\Users\73903\OneDrive - Grundfos\skole\H2\Visual studio\H2_2020_github\H2_code\x64\Debug\geat et tal.exe
+c:\users\mathi\source\repos\h2_code\geat et tal\about.c(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
+c:\users\mathi\source\repos\h2_code\geat et tal\about.c(32): warning C4101: 'bytes': unreferenced local variable
+  geat et tal.vcxproj -> C:\Users\mathi\source\repos\H2_code\x64\Debug\geat et tal.exe

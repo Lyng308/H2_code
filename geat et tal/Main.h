@@ -4,15 +4,17 @@
 #include <conio.h>		//getch()
 #include <time.h>		//Time function for random
 #include <stdbool.h>	//Boolean definitions
-					  //see findtal.c
+#include <Windows.h>					  //see findtal.c
+#include <synchapi.h>
 
 void menu(void);
 void spil(void);
 void regler(void);
 void highscore(void);
-
+void about(void); // husk at tjekke den har du ville elske det 
+void faber(void);
 int findtal(int minTal, int maxTal);
-
+int random(int minTal, int maxTal);
 //Function You MUST create
 //function takes 3 pointers, why?
 void input(int *minTal, int *maxTal, int *maxGaet);

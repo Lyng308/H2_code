@@ -142,6 +142,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="About.c" />
     <ClCompile Include="Findtal.c" />
     <ClCompile Include="highscore.c" />
     <ClCompile Include="Input.c" />

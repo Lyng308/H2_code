@@ -22,6 +22,7 @@ int main() {
 		case 'S': spil(); break;
 		case 'R': regler() ; break;
 		case 'H': highscore() ; break;
+		case 'A': about(); break;
 		}
 	} while (toupper(getch()) != 'L');
 	
@@ -29,6 +30,7 @@ int main() {
 }
 
 void menu(void){
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 	system("cls");
 	printf("                    ___  ___                 \n");
 	printf("                    |  \\/  |                \n");
@@ -36,12 +38,13 @@ void menu(void){
 	printf("                    | |\\/| |/ _ \\ '_ \\| | | |\n");
 	printf("                    | |  | |  __/ | | | |_| |\n");
 	printf("                    \\_|  |_/\\___|_| |_|\\__,_|\n");
-	printf("\n              =====================================");
-	printf("\n              |                                   |");
-	printf("\n              |  Tryk på S for at starte spillet  |");
-	printf("\n              |  Tryk på R for at se regler       |");
-	printf("\n              |  Tryk på H for at se Highscore    |");
-	printf("\n              |  Tryk på L for at Luk programmet  |");
-	printf("\n              |                                   |");
-	printf("\n              =====================================");
+	printf("\n            ========================================");
+	printf("\n            |                                      |");
+	printf("\n            |  Tryk på S for at starte spillet     |");
+	printf("\n            |  Tryk på R for at se regler          |");
+	printf("\n            |  Tryk på H for at se Highscore       |");
+	printf("\n            |  Tryk på A for at se About the game  |");
+	printf("\n            |  Tryk på L for at luk programmet     |");
+	printf("\n            |                                      |");
+	printf("\n            ========================================");
 }
