@@ -1,7 +1,5 @@
-Name: Mathias 
-Points: 1
+			Name: LYNG 	Points: 1000000
 
-
-Name: mathias1 	Points: 1
+			Name: JOE	Points: 9999999
 
 

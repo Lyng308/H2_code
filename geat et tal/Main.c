@@ -1,19 +1,16 @@
 ﻿/*********************************************************
 
-	 Program:			StandardC
-	 Date Created:		20180103
-	 Date Last Edit:	20180103
-	 Author:			/PEFA
-	 Purpose:			Template for G�T ET TAL Exercise 12
+	 Program:			Gæt et tal
+	 Date Created:		20200128
+	 Date Last Edit:	20200129
+	 Author:			/JOE & LYNG
+	 Purpose:			en spil hvor man skal gætte det righte tal
 
 **********************************************************/
 #include "Main.h"
 int main() {
 	setlocale(LC_ALL, "da-DK");
 	char igen, menuChoice;
-
-	
-
 	do {
 		menu();
 		menuChoice = toupper(getch());
@@ -28,9 +25,12 @@ int main() {
 	
 	return 0; 
 }
-
+/*********************************************************
+Function:		menu
+Purpose:		det som skal skrive i menu
+**********************************************************/
 void menu(void){
-	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 11);
 	system("cls");
 	printf("                    ___  ___                 \n");
 	printf("                    |  \\/  |                \n");
@@ -47,4 +47,21 @@ void menu(void){
 	printf("\n            |  Tryk på L for at luk programmet     |");
 	printf("\n            |                                      |");
 	printf("\n            ========================================");
+}
+/*********************************************************
+Function:		file_Reader
+Purpose:		til at loade en fil og skrive det som er i file i cmd
+**********************************************************/
+void file_Reader(FILE ** prt1, char* file) {
+	char faber[10000];
+	int i = 0;
+	int bytes;
+	FILE* ptr1 = fopen(file, "r");
+	fseek(ptr1, 0, SEEK_SET);
+	while (fread(faber + i, sizeof(char), 1, ptr1) != 0) {
+		printf("%c", faber[i]);
+		i++;
+	}
+	faber[i + 1] = '\0';
+	fclose(ptr1);
 }
