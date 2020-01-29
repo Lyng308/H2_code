@@ -9,12 +9,24 @@ void about(void) {
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
 		system("cls");
 		
-		printf("  ___  _                 _   \n");
-		printf(" / _ \\| |               | |  \n");
-		printf("/ /_\\ \\ |__   ___  _   _| |_ \n");
-		printf("|  _  | '_ \\ / _ \\| | | | __|\n");
-		printf("| | | | |_) | (_) | |_| | |_ \n");
-		printf("\\_| |_/_.__/ \\___/ \\__,_|\\__|\n");
+		printf("                      ___  _                 _   \n");
+		printf("                     / _ \\| |               | |  \n");
+		printf("                    / /_\\ \\ |__   ___  _   _| |_ \n");
+		printf("                    |  _  | '_ \\ / _ \\| | | | __|\n");
+		printf("                    | | | | |_) | (_) | |_| | |_ \n");
+		printf("                    \\_| |_/_.__/ \\___/ \\__,_|\\__|\n");
+		printf("\n            ========================================");
+		printf("\n            |                                      |");
+		printf("\n            |  this Game was made for @PEFA        |");
+		printf("\n            |  Company:   Mercantec                |");
+		printf("\n            |                                      |");
+		printf("\n            |  this game was made by:              |");
+		printf("\n            |    @JOE and @LYNG                    |");
+		printf("\n            |                                      |");
+		printf("\n            |  Tryk på S for at luk programmet     |");
+		printf("\n            |  Tryk på F to see why we love PEFA   |");
+		printf("\n            |                                      |");
+		printf("\n            ========================================");
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), random(0, 15));
 		faber();
 	

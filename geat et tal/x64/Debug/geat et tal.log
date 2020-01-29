@@ -1,7 +1,7 @@
 ﻿  About.c
-c:\users\mathi\source\repos\h2_code\geat et tal\about.c(23): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+c:\users\mathi\source\repos\h2_code\geat et tal\about.c(35): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\conio.h(453): note: see declaration of 'getch'
-c:\users\mathi\source\repos\h2_code\geat et tal\about.c(33): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\users\mathi\source\repos\h2_code\geat et tal\about.c(45): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: see declaration of 'fopen'
-c:\users\mathi\source\repos\h2_code\geat et tal\about.c(32): warning C4101: 'bytes': unreferenced local variable
+c:\users\mathi\source\repos\h2_code\geat et tal\about.c(44): warning C4101: 'bytes': unreferenced local variable
   geat et tal.vcxproj -> C:\Users\mathi\source\repos\H2_code\x64\Debug\geat et tal.exe
