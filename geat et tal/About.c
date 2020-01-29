@@ -26,7 +26,7 @@ void about(void) {
 		printf("\n            |  Tryk på S for at luk programmet     |");
 		printf("\n            |  Tryk på F to see why we love PEFA   |");
 		printf("\n            |                                      |");
-		printf("\n            ========================================");
+		printf("\n            ========================================\n");
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), random(0, 15));
 		faber();
 	
