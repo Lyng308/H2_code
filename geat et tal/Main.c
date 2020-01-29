@@ -11,42 +11,30 @@
 int main() {
 
 	char igen;
-	int  minTal, maxTal, antalGaet, maxGeat, comtal;
+	int  minTal, maxTal, antalGeat = 0, maxGeat, comtal;
 
 	do
 	{
-		//Tell the user what to do
-
-
-		//Input the numbers
 		input(&minTal, &maxTal, &maxGeat);
-		while (antalGaet = maxGeat)
-		{
-		}
-		printf("\n\nhvad for et tal gætter du på?: ");
 		comtal = findtal(minTal, maxTal);
-
-		if (tester(comtal) == 1) {
-			antalGaet++;
-			outgaet(true, &antalGaet);
+		printf("\n\nhvad for et tal gætter du på?: ");
+		while (antalGeat < maxGeat){
+			int trueFalse = tester(comtal);
+			
+			if(trueFalse == 1) {
+				antalGeat++;
+				outgaet(true, &antalGeat);
+			}
+			if (trueFalse == 0) {
+				antalGeat++;
+				outhurra(true, maxGeat, antalGeat, comtal);
+			}
+			if (trueFalse == -1) {
+				antalGeat++;
+				outgaet(false, &antalGeat);
+			}
 		}
-		if (tester(comtal) == 0) {
-			antalGaet++;
-			outhurra(true, naxGeat, antalGaet, comtal);
-		}
-		if (tester(comtal) == -1) {
-			antalGaet++;
-			outgaet(false, &antalGaet);
-		}
-	}
-		//if (tester(comtal) == -1)
-		//outhurra(true, &maxGeat, comtal);
-
-		//Tell the user which numbers have been input
-
-		printf("\n %d = findtal(%3d, %3d) ", findtal(minTal, maxTal), minTal, maxTal);
-
-		//Request user to stop or retry
+		
 		printf("\n\nVil du pr\233ve igen? Hvis nej tast S");
 	} while (toupper(getch()) != 'S');
 
