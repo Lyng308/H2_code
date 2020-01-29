@@ -12,7 +12,7 @@ void about(void) {
 		switch (menuChoice) {
 		case 'F': weLoveFaber();
 		}
-	} while (toupper(getch()) != 'Ll'); {
+	} while (toupper(getch()) != 'L'); {
 		}
 }
 
@@ -37,8 +37,8 @@ void menu2(void) {
 	printf("\n            |     This game was made by:           |");
 	printf("\n            |        @JOE and @LYNG                |");
 	printf("\n            |                                      |");
-	printf("\n            | Tryk på M for at gå til Main Menu    |");
-	printf("\n            | Tryk på L to see why we love PEFA    |");
+	printf("\n            | Tryk på L for at gå til Main Menu    |");
+	printf("\n            | Tryk på F to see why we love PEFA    |");
 	printf("\n            |                                      |");
 	printf("\n            ========================================");
 }

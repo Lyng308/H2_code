@@ -8,6 +8,7 @@ Purpose:		Her får vi brugeren til og indtaste et lavt tal og et højt tal.
 void input(int * minTal, int * maxTal, int * maxGaet) {
 	int i = 0;
 	system("cls");
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 	while (i == 0) {
 		printf("Skriv venligst det mindste tal: ");
 		scanf("%d", minTal);
