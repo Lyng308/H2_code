@@ -5,7 +5,7 @@ Purpose:		Her får vi inputs fra andre funktioner og sender det vidre til de funk
 #include "Main.h" 
 void spil(void) {
 	int  minTal, maxTal, antalGeat = 0, maxGeat, comTal, scoreNr = 0;
-
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
 	input(&minTal, &maxTal, &maxGeat);
 	comTal = findTal(minTal, maxTal);
 	printf("\n\nHvad for et tal gætter du på?: ");

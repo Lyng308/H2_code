@@ -12,7 +12,7 @@ void about(void) {
 		switch (menuChoice) {
 		case 'F': weLoveFaber();
 		}
-	} while (toupper(getch()) != 'L'); {
+	} while (toupper(getch()) != 'M'); {
 		}
 }
 
@@ -37,7 +37,7 @@ void menu2(void) {
 	printf("\n            |     This game was made by:           |");
 	printf("\n            |        @JOE and @LYNG                |");
 	printf("\n            |                                      |");
-	printf("\n            | Tryk på L for at gå til Main Menu    |");
+	printf("\n            | Tryk på M for at gå til Main Menu    |");
 	printf("\n            | Tryk på F to see why we love PEFA    |");
 	printf("\n            |                                      |");
 	printf("\n            ========================================");
@@ -54,10 +54,10 @@ void weLoveFaber(void) {
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), random(1, 15));
 		file_Reader(&faber, FILENAME);
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
-		printf("\n\nTyrk alle andre taster end L for at se magien");
-		printf("\n\neller Tryk på L for at komme tilbage");
+		printf("\n\nTyrk alle andre taster end M for at se magien");
+		printf("\n\neller Tryk på M for at komme tilbage");
 	}
-	while (toupper(getch()) != 'L');
+	while (toupper(getch()) != 'M');
 	{
 	}
 }

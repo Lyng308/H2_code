@@ -1,9 +1,6 @@
-﻿  About.c
-c:\users\mathi\source\repos\h2_code\geat et tal\about.c(11): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\conio.h(453): note: see declaration of 'getch'
-c:\users\mathi\source\repos\h2_code\geat et tal\about.c(15): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\conio.h(453): note: see declaration of 'getch'
-c:\users\mathi\source\repos\h2_code\geat et tal\about.c(55): warning C4087: 'file_Reader': declared with 'void' parameter list
-c:\users\mathi\source\repos\h2_code\geat et tal\about.c(60): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\conio.h(453): note: see declaration of 'getch'
-  geat et tal.vcxproj -> C:\Users\mathi\source\repos\H2_code\x64\Debug\geat et tal.exe
+﻿  spil.c
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020_github\h2_code\h2_code\geat et tal\spil.c(10): warning C4013: 'findTal' undefined; assuming extern returning int
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020_github\h2_code\h2_code\geat et tal\spil.c(17): warning C4013: 'outGaet' undefined; assuming extern returning int
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020_github\h2_code\h2_code\geat et tal\spil.c(21): warning C4013: 'outHurra' undefined; assuming extern returning int
+c:\users\73903\onedrive - grundfos\skole\h2\visual studio\h2_2020_github\h2_code\h2_code\geat et tal\spil.c(37): warning C4129: '_': unrecognized character escape sequence
+  geat et tal.vcxproj -> C:\Users\73903\OneDrive - Grundfos\skole\H2\Visual studio\H2_2020_github\H2_code\H2_code\x64\Debug\geat et tal.exe
