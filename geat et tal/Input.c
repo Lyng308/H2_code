@@ -1,10 +1,10 @@
 /*********************************************************
-Function:		Input
+Function:		Findtal
 Purpose:		Her får vi brugeren til og indtaste et lavt tal og et højt tal.
 				Hvorefter brugeren så skal indtaste hvor mange gæt de skal bruge,
 				for at gætte vindertallet. (vindertallet bestemmes af computeren og er tilfældigt)
 **********************************************************/
-#include "Main.h" 
+#include "Main.h"
 void input(int * minTal, int * maxTal, int * maxGaet) {
 	int i = 0;
 	system("cls");

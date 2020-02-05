@@ -6,7 +6,7 @@ Purpose:		Her laver vi en funktion som indeholder det "vindertal" som vi skal br
 #include "Main.h"
 #include <stdbool.h>
 
-int findTal(int minTal, int maxTal)									//Vores minTal og maxTal
+int findtal(int minTal, int maxTal)									//Vores minTal og maxTal
 {
 	static bool blnFirstTime = true;								//Static beholder værdien selv når funktionen er færdig.
 	int randTal;													//Dette er variablen hvor computeren gemmer "vindertallet"

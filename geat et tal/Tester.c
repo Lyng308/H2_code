@@ -3,7 +3,7 @@ Function:		Tester
 Purpose:		Her tjekker vi om funktionen "gaet" er størrer, mindre eller ligmed funktionen "compuTal".
 				Der efter sender vi en 0/1/-1 tilbage til main programmet.
 **********************************************************/
-#include "Main.h" 
+#include "Main.h"
 int tester(compuTal) {
 	int gaet1 = 0;
 	scanf("%d", &gaet1);
